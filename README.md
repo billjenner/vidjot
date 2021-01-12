@@ -1,12 +1,10 @@
 # Jot ideas - Track and list your creative ideas.
 
-![Home Screen](./images/cover.png)
-
 > ## Run Application
 >
 > > [[Here]](https://fierce-depths-94382.herokuapp.com//)
->
 
+![Home Screen](./images/cover.png)
 
 ## Resources
 
@@ -23,7 +21,6 @@
 - [Express Flash](https://www.npmjs.com/package/express-flash)
 - [Passport JS](http://www.passportjs.org/)
 - [bcrypt JS](https://www.npmjs.com/package/bcryptjs)
-
 
 ### Setup
 
