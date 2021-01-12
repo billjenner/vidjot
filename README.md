@@ -2,7 +2,7 @@
 
 > ## Run Application
 >
-> > [[Here]](https://fierce-depths-94382.herokuapp.com//)
+> > [[Here]](https://fierce-depths-94382.herokuapp.com/)
 
 ![Home Screen](./images/cover.png)
 
