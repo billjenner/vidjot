@@ -1,8 +1,31 @@
-# jot ideas
+# Jot ideas - Track and list your creative ideas.
 
-- Track your list of ideas.
+![Home Screen](./images/cover.png)
 
-## Setup
+> ## Run Application
+>
+> > [[Here]](https://fierce-depths-94382.herokuapp.com//)
+>
+
+
+## Resources
+
+- [Mongo DB](https://github.com/ericf/express-handlebars)
+- [Express](https://expressjs.com/en/guide/using-middleware.html)
+- [Handle Bars](https://github.com/ericf/express-handlebars)
+- [Node.JS](https://nodejs.org/en/)
+
+- [Body Parser](https://github.com/expressjs/body-parser)
+- [Method Override](https://github.com/expressjs/method-override)
+
+- [Express Session](https://www.npmjs.com/package/express-session)
+- [Express Messages](https://www.npmjs.com/package/express-messages)
+- [Express Flash](https://www.npmjs.com/package/express-flash)
+- [Passport JS](http://www.passportjs.org/)
+- [bcrypt JS](https://www.npmjs.com/package/bcryptjs)
+
+
+### Setup
 
 > npm init
 > answer questions
@@ -22,46 +45,43 @@
 
   > npm root -g
 
-- middleware
-- expressjs.com/en/guide/using-middleware.html
+#### middleware
 
 - handle bars
 - handlebarsjs.com
+- expressjs
 - express handle bars
-- https://github.com/ericf/express-handlebars
+
   > npm install express-handlebars --save
 
-### Module to map input data to req.body
+#### Module to map input data to req.body
 
 - body parser
 - Parse incoming request bodies in a middleware before your handlers, available under the req.body property
-  https://github.com/expressjs/body-parser
+
   > npm install --save body-parser
 
-### Module to help override post to put
+#### Module to help override post to put
 
 - Edit should be a put request, cannot do a put with a form - transform post <-> put
 - method-override
+
   > npm install --save method-override
 
-### Flash is express-session - authentication, toaster events
+#### Flash is express-session - authentication, toaster events
 
 - express-session
-  https://www.npmjs.com/package/express-session
 - express-messages
-  https://www.npmjs.com/package/express-messages
 - express-flash
-  https://www.npmjs.com/package/express-flash
+
   > npm install --save express-session
   > npm install --save connect-flash
 
-### Passport - Local User Authentication
-
-http://www.passportjs.org/
+#### Passport - Local User Authentication
 
 > npm install --save passport
 > npm install --save passport-local
 
-### install encryption for password
+#### install encryption for password
 
 > npm install --save bcryptjs
